@@ -1,0 +1,82 @@
+/*Estilizando gerais para o corpo */
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(59, 29, 29);
+    align-content: center;
+}
+header {
+    background-color: rgb(128, 86, 86); /*cor de fundo do cabeçalho*/
+    color: rgb(245, 241, 241); /* cor das letras do cabeçalho */
+    padding: 10px; /* preenchimento do cabeçalho*/
+    text-align: center; /* alinhando o texto dentro do cabeçalho */
+
+    
+}
+h1{
+    text-align: center;
+    color:antiquewhite;
+}
+/* estilizando a navegação*/
+nav {
+    background-color: rgb(44, 44, 42);
+    color: rgb(65, 54, 20);
+    padding: 10px;
+}
+nav ul{
+    /* Remove os marcadores da lista */
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    /* Exibe os itens da lista horizontalmente */
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px; /*espaçamento entre os itens */
+}
+nav ul li a {
+    color:rgb(234, 243, 237);
+    text-decoration: none; /* remove o sublinhado dos links */
+    transition: color 0.3; /*transição suave para hover */
+}
+nav ul li a:hover{
+    color:rgb(97, 58, 58); /* hever muda a cor quando aproxima o cursor*/
+}
+/* Estilo para contéudo principal */
+article {
+    background-color: rgb(90, 64, 64);
+    color: antiquewhite;
+    padding: 20px;
+    text-align: justify;
+    
+
+}
+/* Estilizando o rodapé */ 
+footer {
+    background-color: aliceblue;
+    color: rgb(167, 161, 78);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+foter a:hover {
+    text-decoration: blueviolet;
+}
+.imagem{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    /*Espaço inferior */
+    border-radius: 8px;
+    align-content: center;
+    
+}
+.video{
+    width:450px;
+   
+}
+iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+    align-items: center;
+}
